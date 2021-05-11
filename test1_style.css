@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-gray: rgb(102, 101, 101);
+}
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.center-single {
+  background-color: var(--dark-gray);
+  height: 50px;
+}
+
+.center-single:after {
+  clear: both;
+}
+.center-single-1 {
+  margin-top: 10px;
+}
+
+.center-single-2,
+.center-single-3,
+.center-single-4,
+.center-single-5 {
+  margin: 30px auto;
+}
+
+.center-single-2 {
+  width: 30%;
+}
+
+.two-containers {
+  display: inline-block;
+  background-color: var(--dark-gray);
+  box-sizing: border-box;
+  width: 48%;
+  height: 400px;
+}
+.two-containers-side {
+  margin-left: 12px;
+}
+
+.center-single-3 {
+  width: 40%;
+}
+
+li {
+  list-style-type: none;
+  background-color: var(--dark-gray);
+  margin: 5px;
+  margin-left: 8px;
+  display: inline-block;
+  position: relative;
+  width: 23.55%;
+  height: 240px;
+}
+
+.center-single-4 {
+  width: 60%;
+}
+
+.row-mini {
+  margin: 0;
+  padding: 28px 0 0 0;
+  background-color: var(--dark-gray);
+  display: inline-block;
+  float: left;
+  width: 33.33%;
+  height: 566px;
+}
+
+.mini-1,
+.mini-2,
+.mini-3 {
+  border: solid white;
+  background-color: var(--dark-gray);
+  width: 80%;
+}
+
+.mini-1 {
+  border-top: 22px solid white;
+  border-left: 22px solid white;
+  border-right: 22px solid white;
+  height: 70px;
+  margin: 22px auto 0 auto;
+}
+
+.mini-2 {
+  border: 22px solid white;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.mini-3 {
+  border: 22px solid white;
+  border-top: none;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.clearfix {
+  overflow: auto;
+  clear: left;
+}
+
+.center-single-5 {
+  width: 20%;
+}
+
+.center-single-lower,
+.center-single-lower-large {
+  width: 40%;
+  margin: 10px auto;
+}
+
+.center-single-lower-large {
+  height: 200px;
+}
+
+.two-containers-lower {
+  margin-left: 15px;
+  width: 20%;
+  height: 50px;
+}
+
+.center {
+  width: 1482px;
+  margin: 30px 0 55px 250px;
+}
+
+.two-containers-last {
+  background-color: white;
+  border: 15px solid var(--dark-gray);
+  float: left;
+  margin: auto;
+  height: 200px;
+}
