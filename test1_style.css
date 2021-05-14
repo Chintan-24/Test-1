@@ -8,8 +8,15 @@
   --dark-gray: rgb(102, 101, 101);
 }
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 .row {
-  max-width: 1140px;
+  width: auto;
   margin: 0 auto;
 }
 
@@ -40,11 +47,11 @@
   display: inline-block;
   background-color: var(--dark-gray);
   box-sizing: border-box;
-  width: 48%;
+  width: 49%;
   height: 400px;
 }
 .two-containers-side {
-  margin-left: 12px;
+  margin-left: 10px;
 }
 
 .center-single-3 {
@@ -58,7 +65,7 @@ li {
   margin-left: 8px;
   display: inline-block;
   position: relative;
-  width: 23.55%;
+  width: 23.9%;
   height: 240px;
 }
 
@@ -132,13 +139,15 @@ li {
 
 .center {
   width: 1475px;
-  margin: 30px 0 55px 250px;
+  margin: 30px 0 55px 440px;
 }
 
 .two-containers-last {
   background-color: white;
   border: 15px solid var(--dark-gray);
-  float: left;
   margin: auto;
+  display: inline;
+  float: left;
+  width: 50%;
   height: 200px;
 }
